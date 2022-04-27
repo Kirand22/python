@@ -1,0 +1,18 @@
+def f1():  #functions are represented by "def"  ,here f1 is function name
+ print("hello")
+f1()         #after calling the function we get function properties
+#hello
+def f2(a):
+  print("apple")
+f2(a)
+f2(q) #you can call the function with any argument
+def dot(n,a):
+   print("name is",n)
+   print("age is",a)
+dot("kiran",22)
+dot(n="kiran",a=25)
+dot(a=25,n="kiran")
+def f6(*n):              #when you dont know the how many arguments used to call the functions then we use (*) before the argument name
+  print("names are",n)
+f6("kiran","balu","malli","ravi")  #out put is in tuple
+  
