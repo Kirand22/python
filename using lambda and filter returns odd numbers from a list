@@ -1,0 +1,3 @@
+n=[int(x) for x in input("enter numbers").split()]
+l=list(filter(lambda x:x%2!=0,n))
+print(l)
