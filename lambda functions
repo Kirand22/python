@@ -1,0 +1,6 @@
+l=lambda x,y,z:x+y+z  #sum of three numbers
+f=lambda x,y,z:x*y*z  #multiplication of three numbers
+a=l(3,4,5)
+print(a)
+b=f(1,2,3)
+print(b)
